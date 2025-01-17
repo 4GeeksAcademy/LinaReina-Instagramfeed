@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IG feed bootstrap Lina Reina</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="col-12">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+          </a>
+          <div class="d-flex">
+            <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Create New Post
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <strong> Caption </strong>
+                    <textarea class="form-control" placeholder="Add the caption of your post here"
+                      id="floatingTextarea2" style="height: 100px"></textarea>
+                    <button type="button" class="btn btn-outline-secondary mt-2"><i
+                        class="fa-solid fa-camera-retro"></i></button>
+                    <button type="button" class="btn btn-outline-secondary mt-2"><i
+                        class="fa-solid fa-location-dot"></i></button>
+                  </div>
+                  <div class="modal-footer">
+                    <div>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fa-solid fa-gear"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="#">Log Out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <ul class="nav nav-tabs mt-2 d-flex justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+          role="tab" aria-controls="home" aria-selected="true">
+          <i class="fa-solid fa-table-cells"></i>
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+          role="tab" aria-controls="profile" aria-selected="false">
+          <i class="fa-solid fa-square"></i>
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="row">
+          <div class="col-4">
+            <img class="img-thumbnail" src="https://pbs.twimg.com/media/FLLWEiWXsAIhZTa?format=jpg&name=large" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-thumbnail" src="https://pbs.twimg.com/media/FB0Wwh3XsAM9lOT?format=jpg&name=large" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-thumbnail" src="https://pbs.twimg.com/media/FAFn9rHUYAIj6Tf?format=jpg&name=large" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-thumbnail" src="https://pbs.twimg.com/media/E4rq9MBXEAQxbLO?format=jpg&name=large" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-thumbnail" src="https://pbs.twimg.com/media/EqRsncQXAAshly4?format=jpg&name=large" alt="">
+          </div>
+          <div class="col-4">
+            <img class="img-thumbnail" src="https://pbs.twimg.com/media/EbsrOYRX0AMP4Sb?format=jpg&name=large" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!--Profile-->
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="col">
+
+          <div class="card mx-auto mb-5" style="width: 45rem;">
+            <div class="card-body d-flex justify-content-btween">
+              <h2 class="col-11"> Kyara ojitos</h2>
+              <p class="fw-semibold col-1"> 16/12 </p>
+            </div>
+            <img class="card-img-top" src="https://pbs.twimg.com/media/FLLWEiWXsAIhZTa?format=jpg&name=large"
+              alt="...">
+            <div class=" card-body">
+              <h6 class="card-title">Muchos likes 123123123313 </h6>
+              <p class=" card-text">Mi amorsh Kyara</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mx-auto mb-5"  style="width: 45rem;">
+              <div class="card-body d-flex justify-content-btween">
+                <h2 class="col-11"> Onix & bebés</h2>
+                <p class="fw-semibold" col-1> 16/12 </p>
+              </div>
+              <img class="card-img-top" src="https://pbs.twimg.com/media/FB0Wwh3XsAM9lOT?format=jpg&name=large"
+                alt="...">
+              <div class=" card-body">
+                <h6 class="card-title">Muchos likes 123123123313 </h6>
+                <p class=" card-text">Onix, Micha, Miche & Michu</p>
+              </div>
+            </div>
+
+
+
+            <div class="col">
+              <div class="card mx-auto mb-5" style="width: 45rem;">
+                <div class="card-body d-flex justify-content-btween">
+                  <h2 class="col-11">Onix modo Mamá</h2>
+                  <p class="fw-semibold" col-1> 16/12 </p>
+                </div>
+                <img class="card-img-top" src="https://pbs.twimg.com/media/FAFn9rHUYAIj6Tf?format=jpg&name=large"
+                  alt="...">
+                <div class=" card-body">
+                  <h6 class="card-title">Muchos likes 123123123313 </h6>
+                  <p class=" card-text">Onix & micha</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card mx-auto mb-5" style="width: 45rem;">
+                <div class="card-body d-flex justify-content-btween">
+                  <h2 class="col-11"> Ahri en el CC</h2>
+                  <p class="fw-semibold col-1"> 16/12 </p>
+                </div>
+                <img class="card-img-top" src="https://pbs.twimg.com/media/E4rq9MBXEAQxbLO?format=jpg&name=large"
+                  alt="...">
+                <div class=" card-body">
+                  <h6 class="card-title">Muchos likes 123123123313 </h6>
+                  <p class=" card-text">Ahi Loca</p>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card mx-auto mb-5" style="width: 45rem;">
+                  <div class="card-body d-flex justify-content-btween">
+                    <h2 class="col-11"> Kyara Miau Miau Miua</h2>
+                    <p class="fw-semibold" col-1> 16/12 </p>
+                  </div>
+                  <img class="card-img-top" src="https://pbs.twimg.com/media/EbsrOYRX0AMP4Sb?format=jpg&name=large"
+                    alt="...">
+                  <div class=" card-body">
+                    <h6 class="card-title">Muchos likes 123123123313 </h6>
+                    <p class=" card-text">Mi amorsh Kyara</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/f5644106e7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
